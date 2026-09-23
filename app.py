@@ -5,7 +5,7 @@ from transformers import BartTokenizer, BartForConditionalGeneration
 # Page Header
 st.set_page_config(page_title="Abstractive Text Summarizer", layout="centered")
 st.title("Abstractive Text Summarizer")
-st.caption("CCS335 Cloud Computing Mini Project | Transformer-based Summarization")
+ 
 
 # Load Tokenizer and Model
 @st.cache_resource
