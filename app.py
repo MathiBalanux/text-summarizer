@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import torch
 from transformers import BartTokenizer, BartForConditionalGeneration
 from pypdf import PdfReader
